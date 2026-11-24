@@ -9,6 +9,7 @@ body {
   color: #fff;
   font-family: "Inter", sans-serif;
   font-style: italic;
+  text-shadow: 0 2px 6px #000;
 }
 
 .pagina {
@@ -28,6 +29,19 @@ body {
   object-fit: cover;
   object-position: center bottom;
   z-index: -1;
+  filter: brightness(0.6);
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
 }
 
 .intro {
@@ -38,7 +52,6 @@ body {
   font-size: 2.8rem;
   font-weight: 800;
   text-transform: uppercase;
-  text-shadow: 0 2px 0 #ffb703, 0 0 14px rgba(255, 183, 3, 0.6);
 }
 
 .descripcion {
@@ -46,7 +59,7 @@ body {
   margin: 70px auto 0;
   font-size: 1.8rem;
   line-height: 1.35;
-  color: #f5b800;
+  color: #ffd34d;
 }
 
 .siguiente,
@@ -113,16 +126,4 @@ body {
   filter: blur(2px);
   opacity: 0.8;
   pointer-events: none;
-}
-
-.logo {
-  position: absolute;
-  top: 30px;
-  left: 40px;
-  font-size: 1.5rem;
-  font-weight: 800;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: #fff;
-  text-decoration: none;
 }
