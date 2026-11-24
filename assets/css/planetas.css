@@ -46,6 +46,11 @@ body {
   text-decoration: none;
 }
 
+.abrir,
+.planetas-btn {
+  display: none;
+}
+
 .intro {
   text-align: center;
 }
