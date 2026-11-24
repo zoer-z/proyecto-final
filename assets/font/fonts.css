@@ -1,4 +1,19 @@
 @font-face {
-    font-family: ;
-    src: url();
+  font-family: "Orbitron";
+  src: url("Orbitron/Orbitron.ttf") format("truetype");
+  font-weight: 400 900;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("Inter/Inter.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("Inter/Inter-Italic.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
 }
